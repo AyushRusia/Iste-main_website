@@ -1,0 +1,95 @@
+html,
+body,
+header,
+#intro {
+  height: 100%;
+}
+
+#intro {
+  background: url("./../img/img-3.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-nav-collapse {
+  background-color: #24355c;
+}
+@media (max-width: 768px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background-color: #24355c;
+  }
+}
+
+.team {
+  height: auto;
+}
+
+.hd
+{
+  font-size: 150%;
+}
+.hhd
+{
+  background-color: dodgerblue;
+}
+
+h4
+{
+	text-align:center;
+}
+h5
+{
+	text-align:center;
+}
+.card-text
+{
+  text-align:justify;
+  height: 20vh;
+  
+}
+
+#contact
+{
+  margin-top: 0px;
+}
+.contact-section {
+	background: #201037;
+	color: white;
+  }
+  
+  .link {
+	color: white;
+	text-decoration: none;
+  }
+  .social-icon a {
+	margin: 0 10px;
+  }
+  .social-icon .fa {
+	font-size: 30px;
+	line-height: 60px;
+	color: white;
+  }
+  
+  .social-icon #facebook:hover {
+	color: #3b5999;
+  }
+  .social-icon #instagram:hover {
+	color: #e4405f;
+  }
+  .social-icon #twitter:hover {
+	color: #55acee;
+  }
+  .social-icon #linkedin:hover {
+	color: #0077b5;
+  }
+  .link:hover {
+	color: #ff003f;
+  }
+
